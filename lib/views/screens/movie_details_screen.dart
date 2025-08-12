@@ -40,9 +40,19 @@ class MovieDetailsScreen extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {
-              viewModel.addToFavorites(movie);
+              if (viewModel.favoriteMovies.contains(movie)) {
+                viewModel.removeFromToFavorites(movie);
+              } else {
+                viewModel.addToFavorites(movie);
+              }
             },
-            icon: Icon(Movie.save, size: 24, color: Colors.white),
+            icon: Icon(
+              viewModel.favoriteMovies.contains(movie)
+                  ? Icons.bookmark_outlined
+                  : Movie.save,
+              size: 24,
+              color: Colors.white,
+            ),
           ),
         ],
       ),

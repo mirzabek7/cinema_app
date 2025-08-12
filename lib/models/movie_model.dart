@@ -92,4 +92,10 @@ class MovieModel {
       'countries': jsonEncode(countries),
     };
   }
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+    return other is MovieModel && other.name == name;
+  }
 }
