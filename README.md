@@ -29,9 +29,14 @@ A Flutter application for browsing movie information using the **MVVM** architec
 
 ## 📂 Project Structure
 lib/
-├── models/ # Data models (MovieModel, etc.)
+├── models/ # Data models (MovieModel, etc.) 
+
 ├── services/ # API & local DB services (MovieApiService, LocalDbService)
+
 ├── repositories/ # Repositories (FavoritesRepository, SearchRepository)
+
 ├── view_models/ # ViewModels for business logic
+
 ├── views/ # UI screens & widgets
+
 └── utils/ # Constants, colors, helpers
