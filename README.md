@@ -14,7 +14,7 @@ A Flutter application for browsing movie information using the **MVVM** architec
 - 🎞 **Movie categories**: Popular, Top Rated, Now Playing, Upcoming
 - 📱 **Responsive UI** for different screen sizes
 - 🚀 **MVVM architecture** for clean code separation
-- 📡 Data fetching from **Kinopoisk API**
+- 📡 Data fetching from **Movie API**
 
 ---
 
