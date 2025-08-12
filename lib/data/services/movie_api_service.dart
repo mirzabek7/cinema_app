@@ -8,7 +8,7 @@ class MovieApiService {
 
   final Map<String, String> headers = {
     'accept': 'application/json',
-    'X-API-KEY': '0Q7NXKB-VT943WE-J14CN9S-0Q2CMBR',
+    'X-API-KEY': '********************',
   };
 
   Future<List<MovieModel>> fetchLastTopMovies() async {
